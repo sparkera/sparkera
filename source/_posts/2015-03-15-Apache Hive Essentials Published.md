@@ -16,4 +16,4 @@ Finally, I made it. I got it published after working for 6 monthes.
 
 Check it out [here](http://bit.ly/1LRkd5m)
 
-<a href="https://www.packtpub.com/big-data-and-business-intelligence/apache-hive-essentials" target="_blank"><img src="/images/hivebooks.jpg" width="150" height="200" alt="avatar" align ="left" /></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/apache-hive-essentials" target="_blank"><img src="/images/hivebooks.jpg" width="150" height="200" align ="left" /></a>

@@ -6,6 +6,8 @@ category: Blog
 tags:
   - hive
 ---
+![](/images/maxmin.jpg)
+
 Most of time, we need to find the max or min value of particular columns as well as other columns. For example, we have following employee table.
 
 ```
@@ -23,7 +25,7 @@ Most of time, we need to find the max or min value of particular columns as well
 ```
 We want to know **Who is oldest of males or females?** There are three solutions available.
 
-####Solution 1
+#### Solution 1
 The most frequent way of doing it is to to firstly find the MAX of age in each SEX group and do SELF JOIN by matching SEX and the MAX age as follows. This will create two stages of jobs and **NOT** efficient.
 
 ```
@@ -47,7 +49,7 @@ The most frequent way of doing it is to to firstly find the MAX of age in each S
 2 rows selected (94.043 seconds)
 ```
 
-####Solution 2
+#### Solution 2
 Once Hive 0.11.0 introduced analytics functions, we can use ROW_NUMBER to solve the problem as well, but only trigger one MapReduce job.
 
 ```
@@ -68,7 +70,7 @@ Once Hive 0.11.0 introduced analytics functions, we can use ROW_NUMBER to solve 
 2 rows selected (61.655 seconds)
 ```
 
-####Solution 3
+#### Solution 3
 Actually, there is a better way of doing it as follows through ***MAX/MIN STRUCT*** function added by **[Hive-1128](https://issues.apache.org/jira/browse/HIVE-1128)** since Hive 0.6.0, although it is not documented anywhere in the Hive Wiki.
 
 ```
@@ -88,5 +90,5 @@ Actually, there is a better way of doing it as follows through ***MAX/MIN STRUCT
 
 The above job only trigger one MapReduce job. We still need to use the *Group By* clause. However, we can use ***MAX/MIN STRUCT*** function to show all other columns in the same line of *MAX/MIN* value. By default, *Group By* clause does not allow columns shown in the *SELECT* list if it is not *Group By* column.
 
-####Summary
+#### Summary
 The solution 3 is better in terms of performance, query complexity, and version supports.

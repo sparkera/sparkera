@@ -10,7 +10,7 @@ tags:
 ![](/images/sparkmac.jpg)
 It is great to see that Brew supports install Spark. It makes installation of Spark quite easier in Mac. I just follow few steps to get my spark instance installed locally.
 
-####1. Install brew utility.
+#### 1. Install brew utility.
  
 ```
 mymac:$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -45,7 +45,7 @@ HEAD is now at e58a69c points2grid: update 1.3.0 bottle.
 Run `brew doctor` before you install anything
 Run `brew help` to get started
 ```
-####2. Install the spark from Brew
+#### 2. Install the spark from Brew
 
 ```
 mymac:$ brew install apache-spark
@@ -54,7 +54,7 @@ http://d3kbcqa49mib13.cloudfront.net/spark-1.2.0-bin-hadoop2.4.t
 ############################################################ 100.0% /usr/local/Cellar/apache-spark/1.2.0: 283 files, 234M, built in 24.8 minutes
 ```
 
-####3. Start the spark shell.
+#### 3. Start the spark shell.
 
 ```
 bash-3.2$ spark-shell
@@ -105,7 +105,7 @@ Spark context available as sc.
 scala>
 ```
  
-###Note:###
+### Note: ###
 If there is below exception, pls. make sure the local loop address is avaliable in the host file.  
 
 ``` 

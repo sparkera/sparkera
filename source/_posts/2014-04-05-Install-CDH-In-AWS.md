@@ -6,6 +6,7 @@ category: Blog
 tags:
   - hadoop
 ---
+![](/images/ec2.jpg)
 
 1. Get the `Access Key ID` and `Secret Access Key` and store it in a notepad. The keys will be used when creating EC2 instances. If not there, then generate a new set of keys.
 
