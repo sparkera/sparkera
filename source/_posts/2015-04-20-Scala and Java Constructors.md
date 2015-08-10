@@ -1,7 +1,7 @@
 ---
 title: Scala Constructor vs. Java Constructor
 layout: post
-category: blog
+category: Blog
 tags:
   - scala
 ---
@@ -52,12 +52,14 @@ public class Foo() extends SuperFoo {
       super(bar);  
    }  
 }  
+
 ```
 
 **Scala Code**
 
 ```
 class Foo(bar:Bar) extends SuperFoo(bar) {
+//some code
 } 
 
 ``` 
