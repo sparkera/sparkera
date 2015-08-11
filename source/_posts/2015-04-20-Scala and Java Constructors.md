@@ -7,7 +7,7 @@ tags:
 ---
 ![](/images/scala-vs-java.png)
 
-#### 1. Constructor with parameters
+#### 1. Constructor With Parameters
 **Java Code**  
 
 ```
@@ -25,7 +25,7 @@ public class Foo() {
 class Foo(val bar:Bar)  
 ```
 
-#### 2. Constructor with private attribute
+#### 2. Constructor With Private Attribute
 **Java Code**  
 
 ```
@@ -43,7 +43,7 @@ public class Foo() {
 class Foo(private val bar:Bar)  
 ```
 
-#### 3. Call "Super" constructor
+#### 3. Call _Super_ Constructor
 **Java Code**  
 
 ```
@@ -52,19 +52,15 @@ public class Foo() extends SuperFoo {
       super(bar);  
    }  
 }  
-
 ```
 
 **Scala Code**
 
 ```
-class Foo(bar:Bar) extends SuperFoo(bar) {
-//some code
-} 
+class Foo(bar:Bar) extends SuperFoo(bar) {}
+```
 
-``` 
-
-#### 4. Multiple constructors
+#### 4. Multiple Constructors
 **Java Code**  
 
 ```
@@ -84,10 +80,10 @@ public class Foo {
 ```
 class Foo(val bar:Bar){  
     def this() = this(new Bar)  
-}  
-``` 
+}
+```
 
-#### 5. Methods of "getter" and "setter"
+#### 5. Methods of _getter_ and _setter_
 **Java Code**  
 
 ```

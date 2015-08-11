@@ -6,6 +6,8 @@ category: Blog
 tags:
   - hive
 ---
+<img src="/images/hive_fun.jpg" width="960" height="710" align ="center"  />
+
 For now, hive supports following composite data type：
 
 * **map**: (key1, value1, key2, value2, …). Creates a map with the given key/value pairs
@@ -22,7 +24,7 @@ Here, I list some difference between map and struct
 
 Below are samples of their usage
 
-#####1. Array
+##### 1. Array
 Create table using array data type
 
 	01. create table  person(name string,work_locations array<string>)
@@ -72,7 +74,7 @@ Query the table
 	23. NULL
 	24. Time taken: 15.958 seconds
 
-#####2. Map  
+##### 2. Map  
 Create table using array data type
 
 	01. create table score(name string, score map<string,int>)
@@ -118,7 +120,7 @@ Query the table
 	19. 3195
 	20. Time taken: 13.769 seconds
 
-#####3. Struct 
+##### 3. Struct 
 Create table using array data type
 
 	01. create table test(id int,course struct<course:string,score:int>)
@@ -164,7 +166,7 @@ Query the table
 	20. 3295
 	21. Time taken: 13.235 seconds  
 
-#####4. Composite 
+##### 4. Composite 
 
 	1. LOAD DATA LOCAL INPATH '/home/hadoop/test.txt' OVERWRITE INTO TABLE test;
 	2. create table test1(id int,a MAP<STRING,ARRAY<STRING>>)

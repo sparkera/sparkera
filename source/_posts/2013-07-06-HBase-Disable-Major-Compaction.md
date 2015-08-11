@@ -6,6 +6,8 @@ category: Blog
 tags:
   - hbase
 ---
+<img src="/images/hbase.png" align = "center"  />
+
 HBase consists of multiple regions. While a region may have several Stores, each holds a single column family. An edit first writes to the hosting region store's in-memory space, which is called MemStore. When the size of MemStore reaches a threshold, it is flushed to StoreFiles on HDFS.
 
 As data increases, there may be many StoreFiles on HDFS, which is not good for its performance. Thus, HBase will automatically pick up a couple of the smaller StoreFiles and rewrite them into a bigger one. This process is called minor compaction. For certain situations, or when triggered by a configured interval (once a day by default), major compaction runs automatically. Major compaction will drop the deleted or expired cells and rewrite all the StoreFiles in the Store into a single StoreFile; this usually improves the performance.
@@ -22,7 +24,9 @@ The following steps describe how to disable automatic major compaction:
             <value>0</value>
         </property>
 2. Sync the changes across the cluster and restart HBase.
+
 3. With the aforementioned setting, automatic major compaction will be disabled; you will now need to run it explicitly.
+
 4. In order to manually run a major compaction on a particular region through HBase Shell, run the following command:
        
         $ echo "major_compact 'hly_temp,,1327118470453.5ef67f6d2a792fb0bd7
@@ -34,5 +38,4 @@ The following steps describe how to disable automatic major compaction:
         major_compact 'hly_temp,,1327118470453.5ef67f6d2a792fb0bd737863dc00b6a7.'
         0 row(s) in 1.7070 seconds
 
-<br>
 **Note**: Another approach to invoke major compaction is to use the majorCompact API provided by the org.apache.hadoop.hbase.client.HBaseAdmin class. It is easy to call this API in Java, thus you can manage complex major compaction scheduling from Java.
