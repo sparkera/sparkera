@@ -36,7 +36,7 @@ ___
 The book is my 2nd book read about scala. This book is full of examples. It is more easier to learn thaning reading long chapters. I start reading it right now.
 ___
 <a href="http://scalapuzzlers.com/" target="_blank"><img src="http://www.artima.com/images/puzzlersCover185x240.gif" width="150" height="200" align ="right"  /></a>
-###[Scala Puzzlers](id:sp)
+### Scala Puzzlers 
 <img src="/images/4star.png" width="200" height="50" align ="left" /></br>
 
 * Level Ent. 

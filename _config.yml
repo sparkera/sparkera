@@ -5,14 +5,14 @@
 # Site
 title: SparkEra
 subtitle: Big Data Big Insight
-description:
-author: Will Du
+description: A blog for big data, hadoop, spark, data mining, dw, bi, cloud computing, visulization.
+author: Will
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://sparkera.github.io
+url: http://www.sparkera.ca
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,7 +68,9 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-plugins: hexo-generator-feed
+plugins: 
+ hexo-generator-feed
+ hexo-generator-sitemap
 
 ## Themes: http://hexo.io/themes/
 theme: hueman
@@ -77,6 +79,9 @@ theme: hueman
 disqus_shortname: sparkera
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+
+sitemap:
+    path: sitemap.xml
 
 deploy:
   type: git
