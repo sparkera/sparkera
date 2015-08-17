@@ -138,38 +138,3 @@ ___
 
 The book creates fast way to query data using hive in few hours. This is great than searching the apache confluence to see the breaked help documents especially for new hive users. The book has few pages to read and easier to understand. The author also gives level of complex for each chapters so that different level of users could quickly pick up what he/she needs.
 ___
-<a href="http://shop.oreilly.com/product/0636920025054.do?sortby=bestSellers" target="_blank"><img src="/images/AgileDataScience.jpg" width="150" height="200" align ="right"  /></a>
-
-### Agile Data Science - Building Data Analytics Applications with Hadoop 
-<img src="/images/2.5star.png" width="150" height="50" align ="left" /></br>
-
-* Level Mid.   
-* Level Adv. 
-
-The book looks like a case study from beginning to the end. It has lots of code covering implementation of one big data project. It requires coding skills of Python.
-
-___
-<a href="http://shop.oreilly.com/product/0636920028529.do" target="_blank"><img src="/images/doingdatascience.jpg" width="150" height="200" align ="right" /></a>
-
-### Doing Data Science - Start Talking From Frontline 
-<img src="/images/4.5star.png" width="250" height="50" align ="left" /></br>
-
-* Level Ent.   
-* Level Mid.   
-* Level Adv. 
-
-Prepare to read it
-
-___
-<a href="http://shop.oreilly.com/product/0636920028512.do" target="_blank"><img src="/images/learningspark.png" width="150" height="200" align ="right"  /></a>
-
-### Learning Spark - Lightning-Fast Big Data Analysis
-<img src="/images/4.5star.png" width="250" height="50" align ="left" /></br>
-
-* Level Ent.   
-* Level Mid.   
-* Level Adv. 
-
-Start reading it.
-
-___
