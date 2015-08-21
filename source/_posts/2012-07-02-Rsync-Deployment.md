@@ -7,6 +7,7 @@ tags:
   - hbase
   - hadoop  
 ---
+![](/images/rsync.jpg)
 Create a simple rsync script to do HBase/Hadoop deployment
 
 1. Create a cluster-deploy.sh script, shown as follows: $ vi cluster-deploy.sh
