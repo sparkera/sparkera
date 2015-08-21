@@ -9,7 +9,7 @@ description:
 disqus: true 
 lang: en
 ---
-![](http://static.open-open.com/news/uploadImg/20111220/20111220083617_377.jpg)
+![](/images/hive_sort.jpg)
 There are following key words used in Hive to sort data with following difference:
 
 * __ORDER BY (ASC|DESC)__ : This is similar to the traditional SQL operator. Sorted order is maintained across all of the output from every reducer. It performs the global sort using only one reducer, so it takes long time to return result.  The Usage with LIMIT is strongly recommended for order by. When hive.mapred.mode = strict and you do not specify “limit”, there are error out. 
