@@ -83,7 +83,7 @@ disqus_shortname: sparkera
 sitemap:
     path: sitemap.xml
 
-deploy:
+deploy: 
   type: git
   repository: https://github.com/sparkera/sparkera.github.io.git
   branch: master
