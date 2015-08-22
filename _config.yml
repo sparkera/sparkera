@@ -85,5 +85,5 @@ sitemap:
 
 deploy: 
   type: git
-  repository: https://github.com/sparkera/sparkera.github.io.git
+  repository: git@github.com-work:sparkera/sparkera.github.io.git
   branch: master
