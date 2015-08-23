@@ -7,7 +7,9 @@ guid: urn:uuid:0ccb922f-1ea4-4916-ae5e-20130519
 tag: git
 
 ---
-####Cherry-Picking
+![](/images/gitwk.jpg)
+
+#### Cherry-Picking
 --------------
 
 	git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] <commit>
@@ -16,7 +18,7 @@ Example: `git cherry-pick 7300a6130d9447e18a931e898b64eefedea19544`
 <br>
 <br>
 
-####Squashing
+#### Squashing
 ---------
 *WARNING*: "git rebase" changes history. Be careful. Google it.
 
@@ -26,7 +28,7 @@ squash the last 10 commits into one big commit
 
 <br>
 <br>
-####Conflicts
+#### Conflicts
 ---------
 	git mergetool
 Work through conflicted files by opening them in your mergetool (opendiff,
@@ -38,7 +40,7 @@ and then do:`git add <file1> [<file2> …]` Once all conflicts are resolved and 
 
 <br>
 <br>
-####Sharing
+#### Sharing
 -------
 
 	git fetch <remote>
@@ -68,7 +70,7 @@ more obvious what is happening.
 
 <br>
 <br>
-####Reverting
+#### Reverting
 ---------
 
 	git revert <rev>
@@ -84,7 +86,7 @@ Re-checkout all files, overwriting any local changes. This is most similar
 to "svn revert" if you're used to Subversion commands
 <br>
 <br>
-####Fix Mistakes / Undo
+#### Fix Mistakes / Undo
 -------------------
 
 	git reset --hard
@@ -107,7 +109,7 @@ Redo previous commit, including changes you've staged in the meantime.
 Also used to edit commit message of previous commit.
 <br>
 <br>
-####Plumbing
+#### Plumbing
 --------
 
 	test <sha1-A> = $(git merge-base <sha1-A> <sha1-B>)
@@ -115,7 +117,7 @@ Determine if merging sha1-B into sha1-A is achievable as a fast forward;
 non-zero exit status is false.
 <br>
 <br>
-####Stashing
+#### Stashing
 --------
 	git stash
 	git stash save <optional-name>
@@ -143,7 +145,7 @@ Delete the stash
 Delete all current stashes
 <br>
 <br>
-####Remotes
+#### Remotes
 -------
 	
 	git remote add <remote> <remote_URL>
@@ -192,7 +194,7 @@ from the new remote.
 
 <br>
 <br>
-####Submodules
+#### Submodules
 ----------
 
 	git submodule add <remote_repository> <path/to/submodule>
@@ -231,7 +233,7 @@ update will revert to the previous version.
 
 <br>
 <br>
-####Patches
+#### Patches
 -------
 
 	git format-patch HEAD^
@@ -256,7 +258,7 @@ Useful for sharing changes without generating a git commit.
 
 <br>
 <br>
-####Tags
+#### Tags
 ----
 
 	git tag -l
@@ -270,7 +272,7 @@ branch and later merged.
 
 <br>
 <br>
-####Git Instaweb
+#### Git Instaweb
 ------------
 
 	git instaweb --httpd=webrick [--start | --stop | --restart]
@@ -295,6 +297,3 @@ Location of the repository to use (for out of working directory repositories)
 Location of the Working Directory - use with GIT_DIR to specifiy the working
 directory root
 or to work without being in the working directory at all.
-<br>
-<br>
-![](http://kandishengcdn.sinaapp.com/wp-content/uploads/2012/05/687474703a2f2f6769746875622e73332e616d617a6f6e6177732e636f6d2f626c6f672f7265642d706f6c6f2e6a7067.jpg)

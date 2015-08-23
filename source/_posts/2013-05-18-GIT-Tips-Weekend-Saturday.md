@@ -5,8 +5,9 @@ category: Blog
 guid: urn:uuid:0ccb922f-1ea4-4916-ae5e-20130518
 tag: git
 ---
+![](/images/gitwk.jpg)
 
-####Info
+#### Info
 ----
 	git reflog
 Use this to recover from __*major*__ fuck ups! It's basically a log of the
@@ -81,7 +82,7 @@ a local is required by comparing the local head revision.
 
 <br>
 <br>
-####Adding / Deleting
+#### Adding / Deleting
 -----------------
 
 	git add <file1> <file2> ...
@@ -104,7 +105,7 @@ Remove all deleted files from the project
 Commits absence of \<file1>, \<file2>, etc... from the project
 <br>
 <br>
-####Ignoring
+#### Ignoring
 ---------
 
 * __Option 1__: Edit $GIT_DIR/info/exclude. See Environment Variables below for explanation on
@@ -115,7 +116,7 @@ $GIT_DIR.
 Either way you need to add patterns to exclude to these files.
 <br>
 <br>
-####Staging
+#### Staging
 -------
 
 	git add <file1> <file2> ...
@@ -132,13 +133,13 @@ Interactively add files/changes to the staging area. For a simpler mode (no menu
 <br>
 <br>
 
-####Unstaging
+#### Unstaging
 ---------
 	git reset HEAD <file1> <file2> ...
 Remove the specified files from the next commit
 <br>
 <br>
-####Committing
+#### Committing
 ----------
 
 	git commit <file1> <file2> ... [-m <msg>]
@@ -159,7 +160,7 @@ Redo previous commit, including changes made to \<file1>, <file2>, etc...
 <br>
 <br>
 
-####Branching
+#### Branching
 ---------
 	git branch
 List all local branches
@@ -231,7 +232,7 @@ __Note__: path has to be absolute within the repo.
 <br>
 <br>
 
-####Merging
+#### Merging
 -------
 	git merge <branch>
 Merge branch \<branch> into the current branch; this command is idempotent

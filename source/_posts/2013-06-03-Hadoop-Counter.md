@@ -6,6 +6,8 @@ category: Blog
 tags:
   - hadoop
 ---
+![](/images/hcounter.png)
+
 hadoop counter is to help developers and users to have overall status of running jobs. There are three type of counters, MapReduce related, File systems related, and job related. The details can be seen from http://master:50030/jobdetails.jsp
 
 Except internal counters, hadoop also offers customize counters. There are two ways to do that.
@@ -16,7 +18,7 @@ You can use enumiate classs to create counters
     Context context...  
     //Enum class refers to groupName，Enum class type refers to counterName  
     context.getCounter(Enum enum)  
-<br>
+
 #### 2. Dynamic Definition
 
     Context context...  
@@ -34,7 +36,7 @@ You can use enumiate classs to create counters
     Counters counters=job.getCounters();  
     Counter counter=counters.findCounter(Enum enum);//Search Counter  
     long value=counter.getValue();//Fetch Counter 
-<br>
+    
 #### 3. Example
 Below is an example, class WordCountMap: 
     

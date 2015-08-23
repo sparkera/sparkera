@@ -5,6 +5,8 @@ guid: urn:uuid:0ccb922f-1ea4-4916-ae5e-20130521
 category: Blog
 tag: git
 ---
+![](/images/gettingStartedGit.jpg)
+
 There are following ways to catch up/revert changes in GIT
 #### Catchup changes from remote
 
