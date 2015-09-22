@@ -3,6 +3,9 @@
 # or remove the following line with replacing logo-header.png with your own logo
 logo:
 
+subtitle: 星火时代 － 点燃你的大数据梦想
+language: zh-CN
+
 # Header
 menu:
   Home: /
@@ -26,6 +29,7 @@ social_links:
   twitter: https://twitter.com/willdu8
   facebook: https://www.facebook.com/will.du.7545
   github: http://github.com/willddy
+  weibo: 
   rss: /atom.xml
 widgets:
 - recent_posts

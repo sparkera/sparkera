@@ -1,8 +1,8 @@
 title: Apache Spark Books Reviews
 date: 2015-01-01 08:00:11
 category:
- - Reviews
- - Big Data
+ - 读书
+ - 大数据
 tags:
  - books
  - spark

@@ -1,8 +1,8 @@
 title: Scala Programming Books Reviews
 date: 2015-01-01 08:00:11
 category:
- - Reviews
- - Coding
+ - 读书
+ - 编程
 tags: 
  - books
  - scala

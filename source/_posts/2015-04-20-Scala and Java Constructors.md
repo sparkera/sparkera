@@ -1,7 +1,9 @@
 ---
 title: Scala Constructor vs. Java Constructor
 layout: post
-category: Blog
+category:
+ - 文章
+ - 点评
 tags:
   - scala
 ---

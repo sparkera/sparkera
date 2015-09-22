@@ -3,16 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SparkEra
-subtitle: Big Data Big Insight
-description: A blog for big data, hadoop, spark, data mining, dw, bi, cloud computing, visulization.
-author: Will
-language:
+title: 星火时代
+description: 专注于大数据和云技术的中文在线媒体， big data, hadoop, spark, data mining, dw, bi, cloud computing, visulization.
+author: 星火时代
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.sparkera.ca
+url: http://www.sparkera.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -85,5 +84,5 @@ sitemap:
 
 deploy: 
   type: git
-  repository: git@github.com-work:sparkera/sparkera.github.io.git
+  repository: git@github.com:willddy/willddy.github.io.git
   branch: master
