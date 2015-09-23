@@ -2,7 +2,6 @@
 # Please enter an absolute path to your logo file
 # or remove the following line with replacing logo-header.png with your own logo
 logo:
-
 subtitle: ignites big data imaginations 
 
 # Header
@@ -28,6 +27,7 @@ social_links:
   twitter: https://twitter.com/willdu8
   facebook: https://www.facebook.com/will.du.7545
   github: http://github.com/willddy
+  weibo: 
   rss: /atom.xml
 widgets:
 - recent_posts

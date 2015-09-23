@@ -1,7 +1,8 @@
 ---
 title: Scala Constructor vs. Java Constructor
 layout: post
-category: Blog
+category:
+  - Blog
 tags:
   - scala
 ---
